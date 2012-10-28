@@ -17,7 +17,7 @@
 If you have ADF source code, you can read, debug directly. Otherwise, we can override these methods in EO to detect the sequence.  
 I use regions table in HR schema. The RegionEO is quite simple:  
 
-![](images/eo_attr.png) 
+![](images/eo_attr.png?raw=true) 
  
 In `RegionEOImpl.java`, I just override them and add log output.
 
@@ -90,7 +90,7 @@ Add `-Djbo.debugoutput=console` in Java options of run configuration. Then, just
 
 The sequence is straightforward:
 
-![](images/eo_create_seq.png)
+![](images/eo_create_seq.png?raw=true)
 
 **Note:** `initDefaultExpressionAttributes()` is called in `create()`.  
 
