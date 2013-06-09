@@ -1,13 +1,13 @@
 # VO中的绑定变量
 View Object中的Bind Variable有2种类型：  
 
-**viewcriteria
+1. viewcriteria
   
     `<Variable Name="pFirstName" Kind="viewcriteria" Type="java.lang.String"/>`
     
 使用在View Criteria中，一般标记为Optional。如果需要设置为必填项，可以在View Criteria Item中将Valdation设置成Required。
 
-**where
+2. where
 
 	`<Variable Name="pEmail" Kind="where" Type="java.lang.String">`
 	
